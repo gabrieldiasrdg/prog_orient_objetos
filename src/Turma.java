@@ -5,6 +5,7 @@ public class Turma {
     private String codigo;
     private Date ano;
     private int id_turma;
+    private Curso curso;
 
     public String getNome() {
         return nome;
@@ -37,4 +38,13 @@ public class Turma {
     public void setId_turma(int id_turma) {
         this.id_turma = id_turma;
     }
+
+    public Curso getCurso() {
+        return curso;
+    }
+
+    public void setCurso(Curso curso) {
+        this.curso = curso;
+    }
+
 }

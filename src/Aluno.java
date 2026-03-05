@@ -3,6 +3,7 @@ public class Aluno {
     private String matricula;
     private String telefone;
     private int id_aluno;
+    private Turma turma;
 
     public String getNome() {
         return nome;
@@ -34,5 +35,13 @@ public class Aluno {
 
     public void setId_aluno(int id_aluno) {
         this.id_aluno = id_aluno;
+    }
+
+    public Turma getTurma() {
+        return turma;
+    }
+
+    public void setTurma(Turma turma) {
+        this.turma = turma;
     }
 }

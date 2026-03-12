@@ -4,8 +4,15 @@ public class AlunoDisciplina {
 
     private int idAlunoDisciplina;
     private Aluno aluno;
-    private Disciplina diciplina;
+    private Disciplina disciplina;
     private Avaliacao avaliacao;
+
+    public AlunoDisciplina(int idAlunoDisciplina, Aluno aluno, Disciplina disciplina, Avaliacao avaliacao) {
+        this.idAlunoDisciplina = idAlunoDisciplina;
+        this.aluno = aluno;
+        this.disciplina = disciplina;
+        this.avaliacao = avaliacao;
+    }
 
     public int getIdAlunoDisciplina() {
         return idAlunoDisciplina;
@@ -23,12 +30,12 @@ public class AlunoDisciplina {
         this.aluno = aluno;
     }
 
-    public Disciplina getDiciplina() {
-        return diciplina;
+    public Disciplina getDisciplina() {
+        return disciplina;
     }
 
-    public void setDiciplina(Disciplina diciplina) {
-        this.diciplina = diciplina;
+    public void setDisciplina(Disciplina disciplina) {
+        this.disciplina = disciplina;
     }
 
     public Avaliacao getNota() {

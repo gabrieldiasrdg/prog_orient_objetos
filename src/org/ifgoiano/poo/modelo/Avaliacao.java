@@ -4,6 +4,11 @@ public class Avaliacao {
     private AlunoDisciplina alunoDisciplina;
     private double nota;
 
+    public Avaliacao(AlunoDisciplina alunoDisciplina, double nome) {
+        this.alunoDisciplina = alunoDisciplina;
+        this.nota = nota;
+    }
+
     public AlunoDisciplina getAlunoDisciplina() {
         return alunoDisciplina;
     }

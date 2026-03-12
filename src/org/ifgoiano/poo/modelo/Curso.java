@@ -5,6 +5,12 @@ public class Curso {
     private int codigo;
     private String descricao;
 
+    public Curso(String nome, int codigo, String descricao) {
+        this.nome = nome;
+        this.codigo = codigo;
+        this.descricao = descricao;
+    }
+
     public String getNome() {
         return nome;
     }

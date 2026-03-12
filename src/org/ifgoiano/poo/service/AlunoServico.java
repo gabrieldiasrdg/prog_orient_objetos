@@ -8,6 +8,10 @@ import java.util.List;
 public class AlunoServico {
     private Disciplina disciplina;
 
+    public AlunoServico(Disciplina disciplina) {
+        this.disciplina = disciplina;
+    }
+
     public boolean enviarAtividade(Aluno aluno, Disciplina disciplina) {
         System.out.println("Método enviar atividade");
         System.out.println("Aluno: "+ aluno.getNome());

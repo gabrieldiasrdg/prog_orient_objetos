@@ -10,6 +10,17 @@ public class Disciplina {
     private Professor professor;
     private Turma turma;
 
+    public Disciplina(String nome, int cargaHoraria, String ementa, String modalidade, String codigo, int idDisciplina, Professor professor, Turma turma) {
+        this.nome = nome;
+        this.cargaHoraria = cargaHoraria;
+        this.ementa = ementa;
+        this.modalidade = modalidade;
+        this.codigo = codigo;
+        this.idDisciplina = idDisciplina;
+        this.professor = professor;
+        this.turma = turma;
+    }
+
     public Turma getTurma() {
         return turma;
     }

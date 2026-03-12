@@ -4,15 +4,25 @@ public class Professor {
     private String nome;
     private String matricula;
     private String telefone;
+
+    private String email;
     private int idProfessor;
 
-    public Professor() {
-    }
-
-    public Professor(String matricula, String nome, String telefone, int idProfessor) {
+    public Professor(int idProfessor, String matricula, String nome, String email, String telefone) {
         this.nome = nome;
         this.matricula = matricula;
         this.telefone = telefone;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public Professor() {
     }
 
     public String getNome() {

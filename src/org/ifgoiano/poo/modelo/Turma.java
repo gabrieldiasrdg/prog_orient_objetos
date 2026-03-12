@@ -9,6 +9,14 @@ public class Turma {
     private int id_turma;
     private Curso curso;
 
+    public Turma(String nome, String codigo, Date ano, int id_turma, Curso curso) {
+        this.nome = nome;
+        this.codigo = codigo;
+        this.ano = ano;
+        this.id_turma = id_turma;
+        this.curso = curso;
+    }
+
     public String getNome() {
         return nome;
     }

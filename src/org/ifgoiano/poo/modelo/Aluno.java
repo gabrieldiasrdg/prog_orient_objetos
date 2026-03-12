@@ -4,8 +4,16 @@ public class Aluno {
     private String nome;
     private String matricula;
     private String telefone;
-    private int id_aluno;
+    private int idAluno;
     private Turma turma;
+
+    public Aluno(String nome, String matricula, String telefone, int idAluno, Turma turma) {
+        this.nome = nome;
+        this.matricula = matricula;
+        this.telefone = telefone;
+        this.idAluno = idAluno;
+        this.turma = turma;
+    }
 
     public String getNome() {
         return nome;
@@ -31,12 +39,12 @@ public class Aluno {
         this.telefone = telefone;
     }
 
-    public int getId_aluno() {
-        return id_aluno;
+    public int getIdAluno() {
+        return idAluno;
     }
 
-    public void setId_aluno(int id_aluno) {
-        this.id_aluno = id_aluno;
+    public void setIdAluno(int idAluno) {
+        this.idAluno = idAluno;
     }
 
     public Turma getTurma() {

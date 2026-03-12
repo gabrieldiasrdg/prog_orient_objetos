@@ -1,23 +1,18 @@
 package org.ifgoiano.poo.modelo;
 
+import java.util.Date;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        String meuNome = new String("Meu nome");
-        modificaString(meuNome);
-        System.out.println("---------------");
-        System.out.println("ID de memória: " + System.identityHashCode(meuNome));
-        System.out.println("Endereço Hex: " + Integer.toHexString(System.identityHashCode(meuNome)));
+        Professor professor = new Professor(1, "121314",
+                "Gabriel da Silva Vieira", "64992765422",
+                "gabriel.edu@gmail.com");
 
-    }
+        Curso curso = new Curso( "Sistemas de Informação", 1,
+                "Curso de tecnologia focado no mercado de trabalho");
 
-    public static void modificaString(String minhaString) {
-        System.out.println("ID de memória: " + System.identityHashCode(minhaString));
-        System.out.println("Endereço Hex: " + Integer.toHexString(System.identityHashCode(minhaString)));
-        System.out.println("======");
-        minhaString = ("Minha String");
-        System.out.println("ID de memória: " + System.identityHashCode(minhaString));
-        System.out.println("Endereço Hex: " + Integer.toHexString(System.identityHashCode(minhaString)));
+        Turma turma = new Turma("2025.1", "123454", new Date(2025,02,17), 1, Curso curso);
     }
 }

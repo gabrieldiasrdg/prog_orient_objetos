@@ -1,3 +1,5 @@
+package org.ifgoiano.poo.modelo;
+
 public class AlunoDisciplina {
 
     private int idAlunoDisciplina;

@@ -1,3 +1,5 @@
+package org.ifgoiano.poo.modelo;
+
 public class CursoProfessor {
     private int idCursoProfessor;
     private String nome;

@@ -1,9 +1,19 @@
-public class Aluno {
+package org.ifgoiano.poo.modelo;
+
+public class Professor {
     private String nome;
     private String matricula;
     private String telefone;
-    private int id_aluno;
-    private Turma turma;
+    private int idProfessor;
+
+    public Professor() {
+    }
+
+    public Professor(String matricula, String nome, String telefone, int idProfessor) {
+        this.nome = nome;
+        this.matricula = matricula;
+        this.telefone = telefone;
+    }
 
     public String getNome() {
         return nome;
@@ -29,19 +39,11 @@ public class Aluno {
         this.telefone = telefone;
     }
 
-    public int getId_aluno() {
-        return id_aluno;
+    public int getIdProfessor() {
+        return idProfessor;
     }
 
-    public void setId_aluno(int id_aluno) {
-        this.id_aluno = id_aluno;
-    }
-
-    public Turma getTurma() {
-        return turma;
-    }
-
-    public void setTurma(Turma turma) {
-        this.turma = turma;
+    public void setIdProfessor(int idProfessor) {
+        this.idProfessor = idProfessor;
     }
 }

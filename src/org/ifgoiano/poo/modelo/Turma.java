@@ -1,3 +1,5 @@
+package org.ifgoiano.poo.modelo;
+
 import java.util.Date;
 
 public class Turma {

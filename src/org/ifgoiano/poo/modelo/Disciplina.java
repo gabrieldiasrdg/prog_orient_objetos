@@ -1,3 +1,5 @@
+package org.ifgoiano.poo.modelo;
+
 public class Disciplina {
     private String nome;
     private int cargaHoraria;

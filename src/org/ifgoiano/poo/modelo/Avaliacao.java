@@ -1,3 +1,5 @@
+package org.ifgoiano.poo.modelo;
+
 public class Avaliacao {
     private AlunoDisciplina alunoDisciplina;
     private double nota;

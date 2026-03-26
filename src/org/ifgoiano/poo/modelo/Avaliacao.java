@@ -4,7 +4,7 @@ public class Avaliacao {
     private AlunoDisciplina alunoDisciplina;
     private double nota;
 
-    public Avaliacao(AlunoDisciplina alunoDisciplina, double nome) {
+    public Avaliacao(AlunoDisciplina alunoDisciplina, double nota) {
         this.alunoDisciplina = alunoDisciplina;
         this.nota = nota;
     }

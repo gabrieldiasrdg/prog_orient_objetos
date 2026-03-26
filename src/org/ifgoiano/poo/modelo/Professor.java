@@ -1,14 +1,14 @@
 package org.ifgoiano.poo.modelo;
 
-public class Professor {
+public abstract class Professor {
     private String nome;
     private String matricula;
     private String telefone;
-
     private String email;
     private int idProfessor;
 
     public Professor(int idProfessor, String matricula, String nome, String email, String telefone) {
+        super();
         this.nome = nome;
         this.matricula = matricula;
         this.telefone = telefone;
